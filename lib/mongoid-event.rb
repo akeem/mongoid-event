@@ -1,7 +1,5 @@
 require "mongoid-event/version"
+require "mongoid-event/event"
 
-module Mongoid
-  module Event
-    # Your code goes here...
-  end
+module Mongoid_Event
 end
