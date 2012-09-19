@@ -6,7 +6,7 @@ module Mongoid_Event
     field :actor, :type => String
     field :type, :type => String
     field :receiver, :type => String
-    field :details, :type => String
+    field :metadata, :type => Hash
 
   end
 end
